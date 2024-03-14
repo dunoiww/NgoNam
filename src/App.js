@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import { useState } from "react";
+import './style.scss'
 
 function App() {
     
@@ -10,11 +11,15 @@ function App() {
 
     return (
         <div className="App">
-            <button className='button' onClick={handleClick}>
+            <button className='buttonSass' onClick={handleClick}>
                 Click to show alert
             </button>
 
             <Counter />
+
+            <div className="class1">
+                <p className="class2">Hello world</p>
+            </div>
         </div>
     );
 }
@@ -24,8 +29,6 @@ function Counter() {
     const handleClick = () => {
         setCount(prev => prev + 1);
     }
-
-    console.log('re-render');
 
     return (
         <button className="button" onClick={handleClick}>

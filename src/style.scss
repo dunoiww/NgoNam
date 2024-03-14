@@ -1,0 +1,24 @@
+$primary-color: yellow;
+
+@mixin button-style {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttonSass {
+    @include button-style;
+    background-color: $primary-color;
+    border: none;
+}
+
+h2 {
+    + p {
+        border: 1px solid red;
+    }   
+}
+
+.class1 {
+    .class2 {
+        color: yellow;
+    }
+}
