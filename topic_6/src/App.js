@@ -56,7 +56,7 @@ export default function App() {
                 </div>
 
                 <div className='space-y-10' style={{flex: '1 1 0%'}}>
-                    <hr className='sm:my-4 sm:border-white'/>
+                    <hr className='my-3 border-white lg:-my-5 lg:border-white'/>
                     <Profile />
 
                     <Panel title='Popular Posts' posts={posts}/>
