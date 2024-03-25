@@ -1,0 +1,30 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+
+}
+
+.add-todo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: cyan;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgba(9, 192, 67, 0.758);
+  cursor: pointer;
+}
